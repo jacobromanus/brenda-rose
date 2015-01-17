@@ -64,25 +64,51 @@ div {
 	background-color: #DA4747;
 	position: fixed;
 	width: 100%;
-	border-bottom: 1px solid #DDD;
+	border-bottom: 1.5px solid black;
 	z-index: 9999;
+	opacity: 0.6;
+	filter: alpha(opacity=40);
+}
+.top-navigation:hover {
+	opacity: 1.0;
 }
 .top-navigation > .content {
-	height: 70px;
+	height: 65px;
 }
 .top-navigation h1 {
 	font-size: 2.5rem;
 	margin-bottom: 0.55rem;
-	margin-top: 0.35rem;
+	margin-top: 0.45rem;
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
 	text-shadow: 2px 2px 2px #fff;
+	opacity: 1.0;
 }
 .top-navigation h4 {
 	font-size: 1.5rem;
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
 	text-shadow: .5px .5px .5px #fff;
+	margin-left: 0.7rem;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Indie Flower';
+	font-size: 16px;
+	margin-bottom: 0px;
+
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links .active {
+    font-style: bold;
+    font-weight: 500;
+}
+.top-navigation .content .header {
+	margin-top: 15px;
+	margin-bottom: -5px;
 }
 /* Main Section */
 .main {
