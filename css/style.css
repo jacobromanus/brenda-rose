@@ -1,0 +1,175 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: .0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body  {
+	font-family: 'san-serif'
+}
+div {
+	border: 1px Chocolate;
+}
+/* start of custom styles */
+.content {
+	padding: 0px 15px;
+	margin: 0 auto;
+	width: 970px;
+}
+/* Navigation Section */
+.top-navigation {
+	background-color: #DA4747;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+.top-navigation > .content {
+	height: 70px;
+}
+.top-navigation h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.55rem;
+	margin-top: 0.35rem;
+	letter-spacing: 0.10rem;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 2px 2px 2px #fff;
+}
+.top-navigation h4 {
+	font-size: 1.5rem;
+	letter-spacing: 0.10rem;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: .5px .5px .5px #fff;
+}
+/* Main Section */
+.main {
+	background-image: url('dogwood155.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.main > .content {
+	margin: 0 auto;
+	padding: 0 0.938rem;
+	min-width: 37.5rem;
+	text-align: center;
+	color: #fff;
+}
+.main h1 {
+	margin-top: 19.5rem;
+	font-size: 5.735rem;
+	font-weight: 400;
+	color: #800000;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 2.5px 2.5px 3.5px #fff;
+}
+/* The Stuff */
+.stuff .content {
+	margin-top: 7.875rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+	}
+
+.stuff .content p {
+	margin: 1.5rem 0;
+}
+.stuff .content .italics {
+	font-style: italic;
+}
+.stuff .river {
+	border-radius: 370px / 300px;
+
+}
+.river:hover {
+
+}
+/* Group Pic & Quote */
+.stuff .group > li {
+	display: inline;
+	float: left;
+	width: 50%;
+}
+/* blockquote */
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -8px;
+top: -8px;
+color: #7a7a7a;
+}
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+/* Links */
+a {
+	color: Blue;
+}
+a:hover {
+	cursor: pointer;
+}
