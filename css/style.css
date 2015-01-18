@@ -110,6 +110,12 @@ div {
 	margin-top: 15px;
 	margin-bottom: -5px;
 }
+/* Book Trailer */
+.video .content {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25px;
+}
 /* Main Section */
 .main {
 	background-image: url('dogwood035.jpg');
