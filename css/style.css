@@ -78,16 +78,18 @@ div {
 	margin-top: 0.45rem;
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
-	text-shadow: 2px 2px 2px #fff;
+	text-shadow: 2px 2px 2px black;
 	font-style: bold;
+	color: white;
 }
 .top-navigation h4 {
 	font-size: 1.65rem;
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1px 1px 1px black;
 	margin-left: 0.7rem;
 	font-style: bold;
+	color: white;
 }
 .top-navigation .links {
 	float: right;
@@ -101,7 +103,8 @@ div {
 	margin-left: 25px;
 	font-size: 1.5rem;
 	padding: 0 10px;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	color: white;
 }
 .top-navigation .links .active {
     font-style: bold;
@@ -110,12 +113,6 @@ div {
 .top-navigation .content .header {
 	margin-top: 15px;
 	margin-bottom: -5px;
-}
-/* Book Trailer */
-.video .content {
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 35px;
 }
 /* Main Section */
 .main {
@@ -140,6 +137,12 @@ div {
 	color: #800000;
 	font-family: 'Indie Flower', cursive;
 	text-shadow: 2.5px 2.5px 3.5px #fff;
+}
+/* Book Trailer */
+.video .content {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 35px;
 }
 /* The Stuff */
 .stuff .content {
@@ -205,4 +208,38 @@ a {
 }
 a:hover {
 	cursor: pointer;
+}
+/* footer */
+.foot {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.foot hr {
+	border: 0;
+	border-top:  1px solid #eaebec;
+	margin: 1.313rem;
+}
+.foot .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+.foot .icons >li:hover {
+	cursor: pointer;
+}
+.twitter {
+	color: #55acee;
+}
+.facebook {
+	color: #4c66a4;
+}
+.instagram {
+	color: #3f729b;
 }
