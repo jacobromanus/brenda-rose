@@ -61,13 +61,13 @@ div {
 }
 /* Navigation Section */
 .top-navigation {
-	background-color: #DA4747;
+    background: rgb(212, 9, 30); /* Fallback */
+    background: rgba(212, 9, 30, 0.5);
 	position: fixed;
 	width: 100%;
 	border-bottom: 1.5px solid black;
 	z-index: 9999;
-	opacity: 0.6;
-	filter: alpha(opacity=40);
+	
 }
 .top-navigation:hover {
 	opacity: 1.0;
@@ -82,19 +82,20 @@ div {
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
 	text-shadow: 2px 2px 2px #fff;
-	opacity: 1.0;
+	font-style: bold;
 }
 .top-navigation h4 {
-	font-size: 1.5rem;
+	font-size: 1.55rem;
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
 	text-shadow: 1px 1px 1px #fff;
 	margin-left: 0.7rem;
+	font-style: bold;
 }
 .top-navigation .links {
 	float: right;
 	font-family: 'Indie Flower';
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 0px;
 
 }
@@ -103,6 +104,7 @@ div {
 	margin-left: 25px;
 	font-size: 1.4rem;
 	padding: 0 10px;
+	text-shadow: 1px 1px 1px #fff;
 }
 .top-navigation .links .active {
     font-style: bold;
