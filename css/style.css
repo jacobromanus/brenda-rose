@@ -62,21 +62,18 @@ div {
 /* Navigation Section */
 .top-navigation {
     background: rgb(212, 9, 30); /* Fallback */
-    background: rgba(212, 9, 30, 0.5);
+    background: rgba(212, 9, 30, 0.3);
 	position: fixed;
 	width: 100%;
 	border-bottom: 1.5px solid black;
-	z-index: 9999;
-	
+	z-index: 9999;	
 }
-.top-navigation:hover {
-	opacity: 1.0;
 }
 .top-navigation > .content {
 	height: 65px;
 }
 .top-navigation h1 {
-	font-size: 2.5rem;
+	font-size: 2.6rem;
 	margin-bottom: 0.55rem;
 	margin-top: 0.45rem;
 	letter-spacing: 0.10rem;
@@ -85,7 +82,7 @@ div {
 	font-style: bold;
 }
 .top-navigation h4 {
-	font-size: 1.55rem;
+	font-size: 1.65rem;
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
 	text-shadow: 1px 1px 1px #fff;
@@ -102,7 +99,7 @@ div {
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 25px;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	padding: 0 10px;
 	text-shadow: 1px 1px 1px #fff;
 }
