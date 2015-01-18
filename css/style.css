@@ -88,7 +88,7 @@ div {
 	font-size: 1.5rem;
 	letter-spacing: 0.10rem;
 	font-family: 'Indie Flower', cursive;
-	text-shadow: .5px .5px .5px #fff;
+	text-shadow: 1px 1px 1px #fff;
 	margin-left: 0.7rem;
 }
 .top-navigation .links {
@@ -101,6 +101,8 @@ div {
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 25px;
+	font-size: 1.4rem;
+	padding: 0 10px;
 }
 .top-navigation .links .active {
     font-style: bold;
@@ -114,7 +116,7 @@ div {
 .video .content {
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 35px;
 }
 /* Main Section */
 .main {
